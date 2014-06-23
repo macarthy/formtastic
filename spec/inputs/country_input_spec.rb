@@ -111,7 +111,7 @@ describe 'country input' do
       end
     end
 
-    describe "whent the attribute is 'country_something'" do
+    describe "when the attribute is 'country_something'" do
 
       before do
         concat(semantic_form_for(@new_post) do |builder|
